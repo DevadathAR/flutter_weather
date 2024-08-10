@@ -79,7 +79,7 @@ class _WeatherPageState extends State<WeatherPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(DateFormat("EEEE").format(now)),
-            Text("${DateFormat("d.m.y").format(now)}"),
+            Text("${DateFormat("dd.MM.y").format(now)}"),
           ],
         ),
       ],
